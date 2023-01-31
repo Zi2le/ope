@@ -1,0 +1,127 @@
+
+
+.example{
+background-color: #ffffff;
+padding: 20px 0px;
+
+ font-family: serif;
+border: none;
+    border-radius: 10px;
+    margin-block: 0px;
+
+}
+body{
+    background-color: white;
+}
+
+.pa{
+  
+    text-transform: capitalize;
+          font-family: sans-serif;
+            padding: 20px 150px;
+             list-style-type:none;
+             
+                  background-size: contain;
+
+
+ border-radius: 0 0 0 30px;
+      background:url(transparent)
+
+    
+}
+
+
+.c{
+ width: 1200px;
+    text-transform: capitalize;
+    padding: 5px ;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+     
+    background-color:white;
+    color: black;
+     
+    display: flex;
+    justify-content: space-evenly;
+
+} 
+      
+      .d{
+ padding-left: 900px;
+ 
+    
+}
+
+
+    #email{
+        display: block;
+        text-transform: capitalize;
+        width: 75%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 3px solid grey;
+        background-color: transparent;
+        
+    }
+      #c{
+
+        text-transform: capitalize;
+    display: block;
+        width: 75%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: none;
+        outline-style: none;
+        border-bottom: 3px solid grey;
+        background-color: transparent;
+        
+    }
+        
+       #ph{
+    text-transform: capitalize;
+        display: block;
+        width: 75%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 3px solid grey;
+        block-size: 0%;
+        background-color: transparent;
+    }
+        #p{
+        display: block;
+        text-transform: capitalize;
+        width: 75%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 3px solid grey;
+        background-color: transparent;
+    }
+
+        #fname{ 
+            text-transform: capitalize;
+        display: blocks;
+        width: 75%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 3px solid grey;
+        background-color: transparent;
+        
+    }
+       main.map{
+        background-color: darkslategray;
+        border-radius: 10px;
+       } 
+
+
+
+
