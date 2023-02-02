@@ -1,3 +1,207 @@
+@media print {
+    html{
+        font-size: 15px;
+    }
+    body{
+      background-color: transparent;
+    }
+    main{
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       grid-template-areas: "a a b b"
+                            "a a c c"
+                            "d d e e"
+                            "f f g g"
+                            "h h i i" ;
+        grid-template-rows: repeat(5, 100px);
+        gap: 20px;
+    }
+    section{
+        /* width: 50%; */
+      background-color: rgb(160, 48, 48);
+      /* height: 50px; */
+      /* margin-top: 10px;
+      margin-bottom: 2em;
+      margin-left: 2rem;
+      margin-right: 0.5rem; */
+      /* margin: 20px auto; */
+    }
+    .middle{
+        background-color: black;
+    }
+    section:nth-of-type(1){
+        grid-area: a;
+    
+    }
+    section:nth-of-type(2){
+         grid-area: b;
+    }
+    section:nth-of-type(3){
+        grid-area: c;
+    }
+    section:nth-of-type(4){
+        grid-area: d;
+    }
+    
+    section:nth-of-type(5){
+        grid-area: e;
+    }
+    
+    section:nth-of-type(6){
+         grid-area: f;
+    }
+    section:nth-of-type(7){
+          grid-area: g;
+    }
+    section:nth-of-type(8){
+        grid-area: h;
+    }
+    section:nth-of-type(9){
+        grid-area: i;
+    
+    }  
+}
+@media screen and (min-width: 400px){
+    html{
+        font-size: 15px;
+    }
+    body{
+      background-color: darkblue;
+    }
+    main{
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       grid-template-areas: "a"
+                            "b"
+                            "c"
+                            "d"
+                            "e" 
+                            "f"
+                            "g"
+                            "h"
+                            "i";
+        grid-template-rows: repeat(9, 100px);
+        gap: 20px;
+    }
+    section{
+        /* width: 50%; */
+      background-color: rgb(160, 48, 48);
+      /* height: 50px; */
+      /* margin-top: 10px;
+      margin-bottom: 2em;
+      margin-left: 2rem;
+      margin-right: 0.5rem; */
+      /* margin: 20px auto; */
+    }
+    .middle{
+        background-color: black;
+    }
+    section:nth-of-type(1){
+        grid-area: a;
+    
+    }
+    section:nth-of-type(2){
+         grid-area: b;
+    }
+    section:nth-of-type(3){
+        grid-area: c;
+    }
+    section:nth-of-type(4){
+        grid-area: d;
+    }
+    
+    section:nth-of-type(5){
+        grid-area: e;
+    }
+    
+    section:nth-of-type(6){
+         grid-area: f;
+    }
+    section:nth-of-type(7){
+          grid-area: g;
+    }
+    section:nth-of-type(8){
+        grid-area: h;
+    }
+    section:nth-of-type(9){
+        grid-area: i;
+    
+    }    
+}
+
+@media screen and (min-width: 760px){
+
+
+  
+html{
+    font-size: 15px;
+}
+body{
+  background-color: darkblue;
+}
+main{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   grid-template-areas: "a a "
+                        "b c"
+                        "d e"
+                        "f g"
+                        "h i" ;
+    grid-template-rows: repeat(5, 100px);
+    gap: 20px;
+}
+section{
+    /* width: 50%; */
+  background-color: rgb(160, 48, 48);
+  /* height: 50px; */
+  /* margin-top: 10px;
+  margin-bottom: 2em;
+  margin-left: 2rem;
+  margin-right: 0.5rem; */
+  /* margin: 20px auto; */
+}
+.middle{
+    background-color: black;
+}
+section:nth-of-type(1){
+    grid-area: a;
+
+}
+section:nth-of-type(2){
+     grid-area: b;
+}
+section:nth-of-type(3){
+    grid-area: c;
+}
+section:nth-of-type(4){
+    grid-area: d;
+}
+
+section:nth-of-type(5){
+    grid-area: e;
+}
+
+section:nth-of-type(6){
+     grid-area: f;
+}
+section:nth-of-type(7){
+      grid-area: g;
+}
+section:nth-of-type(8){
+    grid-area: h;
+}
+section:nth-of-type(9){
+    grid-area: i;
+
+}  
+}
+
+@media screen and (min-width: 920px) {
+    
+
 html{
     font-size: 15px;
 }
@@ -59,4 +263,5 @@ section:nth-of-type(8){
 section:nth-of-type(9){
     grid-area: i;
 
+}
 }
