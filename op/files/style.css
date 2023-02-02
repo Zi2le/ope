@@ -19,13 +19,15 @@
     }
     section{
         /* width: 50%; */
-      background-color: rgb(160, 48, 48);
+      background-color: rgb(12, 6, 6);
       /* height: 50px; */
       /* margin-top: 10px;
       margin-bottom: 2em;
       margin-left: 2rem;
       margin-right: 0.5rem; */
       /* margin: 20px auto; */
+
+      border: 15px solid black;
     }
     .middle{
         background-color: black;
