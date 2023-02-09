@@ -1,0 +1,91 @@
+@media screen and (min-width: 300px){
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+ul{
+   list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: beige;
+    
+    
+    height: 5.5em;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    right: 0;
+    left:0 ;
+    top: -20px;
+    
+   
+    
+     
+   
+    
+}
+main{
+    position: relative;
+    top: 4em;
+    z-index: -1;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0.5em 0;
+    
+  
+
+}
+li:hover{
+    background-color: black;
+    color: #fff;
+    border-bottom: 3px,solid,grey;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+}
+
+
+    
+@media screen and (min-width: 920px){
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: beige;
+    height: 3em;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left:0 ;
+    top: -20px;
+   
+    
+     
+   
+    
+}
+main{
+    position: relative;
+    top: 3em;
+    z-index: -1;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 1em 0;
+  
+
+}
+a:hover{
+    background-color: black;
+    color: whitesmoke;
+    border-bottom: 2px, solid, blue;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+}
