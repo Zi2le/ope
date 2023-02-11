@@ -1,3 +1,193 @@
+@media screen and (min-width: 300px){
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@200&display=swap');
+section{
+    height: 100vh;
+    border-bottom: 2px solid;
+}
+section:first-of-type{
+    background-color: rgba(0, 0, 0, 0.755);
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/01259a16235741.562a76ac176c4.jpg);
+     background-blend-mode: overlay;
+}
+section nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0em;
+
+}
+nav > :last-child{
+   
+   display: flex;
+}
+nav header{
+    font-size: 13px;
+    color: #e55;
+
+}
+
+
+nav header span{
+   color: white;
+
+}
+nav a{
+    font-size: 6px;
+    display: block;
+    padding-right: 2em;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+nav a:last-of-type{
+    display: flexbox;
+       text-align: center;
+    color: #e55;
+    border: 1.3px solid #e55;
+   padding: .1em 1.5em;
+   margin-left: 9px;
+   border-radius: 2px;
+   
+}
+.image{
+    
+    padding: 20vh 0;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+ 
+}
+.image img{
+    height:200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+    
+.image h2{
+    color: #e55;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+.image p{
+    color: #fff;
+    font-family: 'Neuton', serif
+}
+section:nth-of-type(2){
+    font-size: 12px;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows:  300px;
+    gap: 3em;
+    color: white;
+    background-color: #123;
+    height: 70vh;
+    
+}
+main section:nth-of-type(2) > div:first-of-type{
+     background-image: url(https://formationslinguistiques.com/wp-content/uploads/2016/02/avatar-female-2.png);
+    background-size: cover;
+    height: 70vh;
+    width: 200px;
+}
+.profile{ 
+    font-size: 8px;
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border:2px solid #e55 ;
+    padding: 1em 1.5em;
+    margin-bottom: 10px;
+    align-content: center;
+    text-transform: capitalize;
+}
+.me{
+      text-align: justify;
+}
+.pro{
+    text-decoration: none;
+   
+}
+#bad{
+    color: white;
+}
+.profile+input{
+    background-color: #e55;
+    border: none;
+    color: white;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+}
+.profile+input:hover{
+    box-shadow: 0 0 5px white;
+    background-color:white ;
+    color: #e55;
+}
+article{
+       display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    /* grid-template-areas: "a  b  c"
+                         "a  b  c";   */
+    grid-template-rows:repeat( 1, 230px) ; 
+    gap: 2em;  
+    padding: 1em;                            
+    
+}
+#bad{
+    text-decoration: none;
+}
+main section:last-child{
+    background-color: #25273e;
+    height: 70vh;
+}
+article div{
+    border: 2px solid #e55;
+    padding: 1em;
+}
+main section:last-child > div:nth-of-type(1){
+         display: flex;
+        flex-direction: column;
+        justify-content: left;
+}
+ .col{
+    color: #e55;
+   width: 90%;
+   padding-top: 5em;
+   padding-left: 2em
+ 
+}
+ .lo{
+     border-bottom:1px solid #e55;
+}
+.co{
+    color: white;
+    width: 90%;
+   
+}
+i{
+    size: 10px;
+    color:#e55;
+}
+article div h4{
+    font-size: 17px;
+    color: white;
+}
+ 
+article div p{
+    font-size: 8px;
+    color: white;
+
+}
+
+}
+    
+@media screen and (min-width :720px) {
+    
+
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton:wght@200&display=swap');
 section{
@@ -62,11 +252,13 @@ nav a:last-of-type{
 }
     
 .image h2{
+    font-size: 22px;
     color: #e55;
     text-transform: capitalize;
     font-family: 'Ubuntu', sans-serif;
 }
 .image p{
+    font-size: 22px;
     color: #fff;
     font-family: 'Neuton', serif
 }
@@ -79,101 +271,104 @@ section:nth-of-type(2){
     gap: 3em;
     color: white;
     background-color: #123;
+    height: 70vh;
 }
 main section:nth-of-type(2) > div:first-of-type{
-            background-image: url(https://formationslinguistiques.com/wp-content/uploads/2016/02/avatar-female-2.png);
+    background-image: url(https://formationslinguistiques.com/wp-content/uploads/2016/02/avatar-female-2.png);
     background-size: cover;
-   
-   
+    height: 70vh;
+   width: 400px;
+}
+.me{
+       text-align: justify;
 }
 .profile{
+    font-size: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border:2px solid #e55 ;
     padding: 1em;
     margin-bottom: 10px;
     align-content: center;
+    
 }
+aside p{
+    font-family: 'Libre Caslon Display', serif;
+
+}
+.pro{
+     text-decoration: none;
+   
+}
+#bad{
+    color: white;
+}
+
+
 .profile+input{
     background-color: #e55;
     border: none;
-    color: white;
+  --text-color:white;
     padding: 1em 1.5em;
     border-radius: 5px;
+    transition: background-color 2s color 2s;
+    
 }
+
+  
 .profile+input:hover{
     box-shadow: 0 0 5px white;
     background-color:white ;
-    color: #e55;
-}
- .function{
-    font-size: 16px;
+   --text-color:#e55;
+   
+    
+ }
+  article{
+    font-size: 10px;
     background-color: #25273e;
     display: grid;
     grid-template-columns: repeat(3, 1fr );
-    grid-template-areas: "a  b  c"
-                         "a  b  c";  
-    grid-template-rows:repeat( 1, 80px) ;                               
-       gap: 3em;
-       padding: 2em;
-      align-content: center;
-     
-      width: 90%;
+    /* grid-template-areas: "a  b  c"
+                         "a  b  c";   */
+    grid-template-rows:repeat( 1, 350px) ; 
+    gap: 2em;  
+    padding: 1em;                            
+    }
+article div{
+    border: 2px solid #e55;
+    padding: 2em;
+    margin-top: 65px;
     
+
 }
-main section:last-child{
-        background-color: #25273e;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+i{
+    color:#e55;
+  
 }
-main section:last-child > header{
+ .col{
     color: #e55;
    width: 90%;
- 
+   padding-top: 5em;
+   padding-left: 2em;
+  }
+ .lo{
+     border-bottom:1px solid #e55;
 }
-main section:last-child > h3{
-    color: white;
+.co{
+    color:white;
     width: 90%;
    
 }
- 
-.function > span:nth-of-type(1){
-    grid-area: a;
-    border: #e55 solid 2px;
-    font-size: 15px;
-    padding: 1em;
-    
-   
-    
-  }  
-  span:nth-of-type(1) > h4{
-    color: white;
-  }
-  span:nth-of-type(1) > p{
-    color: white;
-  }
-.function > span:nth-of-type(2){
-    grid-area: b;
-    border: #e55 solid 2px;
-   
-}
-span:nth-of-type(2) > h4{
+article div h4{
     color: white;
 }
-span:nth-of-type(2) > p{
+article div p{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
     color: white;
-    padding: 1em;
 }
-.function > span:nth-of-type(3){
-    grid-area: c;
-    border: #e55 solid 2px;
-}
-span:nth-of-type(3) > h4{
-   color: white;
-}
-span:nth-of-type(3) > p{
-     color: white;
-     ;
+ article div p{
+    font-family: 'Cormorant Upright', serif;
+
+ }
 }
