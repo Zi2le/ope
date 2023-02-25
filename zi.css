@@ -1,0 +1,82 @@
+html{
+    --bg-:crimson;
+    --b-:black;
+    --c-:white
+
+}
+body{
+    background-color: var(--bg-);
+}
+main{
+    padding: 10px;
+    font-size: 17px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4 ,.5fr);
+    grid-template-areas: "a a a a" 
+                         "b c d e"
+                         "f g h i"
+                         "j k l m"
+                         "n o p q"
+                         "r s t t";
+    grid-template-rows: repeat(6, 40px);
+    gap: 20px;
+    width: 500px;                     
+     margin: 0 auto; 
+     margin-top: 125px;
+     border-radius: 5px;
+}
+section:nth-of-type(1){
+    grid-area:a ;
+}
+section:nth-of-type(2){
+    grid-area: b;}
+section:nth-of-type(3){
+    grid-area: c;}
+section:nth-of-type(4){
+    grid-area: d;}
+section:nth-of-type(5){
+    grid-area: e;}
+section:nth-of-type(6){
+    grid-area: f;}
+section:nth-of-type(7){
+    grid-area:g ;}
+section:nth-of-type(8){
+    grid-area:h ;}
+section:nth-of-type(9){
+    grid-area: i;}
+section:nth-of-type(10){
+    grid-area:j ;}
+section:nth-of-type(11){
+    grid-area:k ;}
+section:nth-of-type(12){
+    grid-area:l ;}
+section:nth-of-type(13){
+    grid-area: m;}
+section:nth-of-type(14){
+    grid-area: n;}
+section:nth-of-type(15){
+    grid-area: o;}
+section:nth-of-type(16){
+    grid-area: p;}
+section:nth-of-type(17){
+    grid-area:q ;}
+section:nth-of-type(18){
+    grid-area: r;}
+section:nth-of-type(19){
+    grid-area:s;}
+section:nth-of-type(20){
+    grid-area: t;
+}
+section{
+    padding: 12px;
+    border: 0.5px solid transparent;
+    border-radius:5px ;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color:#25273e;
+ }
+ .blue{
+    color: darkslateblue;
+ }

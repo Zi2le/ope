@@ -26,7 +26,10 @@ nav header{
     color: #e55;
 
 }
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 nav header span{
    color: white;
@@ -92,6 +95,7 @@ main section:nth-of-type(2) > div:first-of-type{
      background-image: url(https://formationslinguistiques.com/wp-content/uploads/2016/02/avatar-female-2.png);
     background-size: cover;
     height: 70vh;
+    width: 200px;
  }
 .profile{ 
     font-size: 8px;
